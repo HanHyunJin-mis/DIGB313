@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter04-project03.css" />
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+    <fieldset>
+   
+        <legend>Photo Details</legend>
+
+        <p class="second">
+            <label>Title </label><br/>
+            <input type ="text" name="title" size = "109"/><br/>
+            </p>
+        <p>
+            <label>Description</label><br/>
+            <textarea name="description" cols="110" rows="6"></textarea>
+        </p>
+<table>
+ <tr>
+     <td>
+    
+     <p>
+         
+            <label>Continent </label><br/>
+            <select name ="continent">
+                <option>Choose continent</option>
+                <option>North America</option>
+             </select><br/>
+         </p>
+         <p>
+            <label>Country</label><br/>
+            <select name ="country">
+                <option>Choose country</option>
+                <option>Canada</option>
+             </select><br/>
+             </p>
+        <p>
+         <label>City </label><br/>
+             <input type ="text" name="city" size= "50" /><br/>
+     
+        </p>
+         </td>
+         <td>
+         
+         <p class="first">
+        <label>Copyright?</label><br/>
+         <input type="radio" name="copyright" value="1">All rights reserved<br/>
+             <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
+         </p>
+         <p class="first">
+            <label>Creative Commons Types</label><br/>
+             <input type="checkbox" name="cc" value="Attribution">Attribution<br/>
+             <input type="checkbox" name="cc" value="Noncommerical">Noncommerical<br/>
+             <input type="checkbox" name="cc" value="No Derivative Works">No Derivative Works<br/>
+             <input type="checkbox" name="cc" value="Share Alike">Share Alike<br/>
+         </p>
+     </td>
+    </tr>
+    
+ <tr>
+     <td colspan="2">
+         <p>
+             <label>I accept the software license</label>
+         <input type="checkbox" name="accept"><br/>
+         </p>
+     </td>
+    </tr>
+ <tr>
+    <td>
+        <p>
+         <label>Rate this photo:</label><br/>
+    <input type ="number" min="1" max="2" name="rate" /><br/><br/>
+         <label>Color Collection:</label><br/>
+         <input type="color" name="color" />
+        </p>
+        </td>
+     <td>
+<p class="first">
+   <label>Date Taken:</label><br/>
+    <input type ="date"  format = dd/mm/yyyy name="date" /><br/><br/>
+         
+         <label>Time Taken:</label><br/>
+    <input type ="time" format =HH:MM name="time" />
+         </p>
+     </td>
+    </tr>   
+</table>
+    <div class="finish">
+    <input class="finish" type="submit" value= "Submit"/>
+    <input  class="finish" type="reset" value = "Clear Form" />
+        </div>
+    </fieldset>
+    
+    </form>
+    </body>
+   
+</html>
