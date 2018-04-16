@@ -1,0 +1,80 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+    margin : 10px 150px;
+}
+td{
+    padding : 8pt;
+}
+tbody tr:nth-child(even){
+    
+}
+
+fieldset{
+    border : 1pt dashed black;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 150%;
+    width: 500px;
+    height: 800px;
+   
+}
+p{
+    padding : 5px 20px;
+}
+
+.first{
+    border: 1px dashed black;
+    margin : 7px;
+    padding : 7pt;
+    border-spacing: 10pt;
+    padding-right: 140px;
+}
+.second{
+ width: 600px;
+margin: 10px 0px;
+    
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="time"], select[name="continent"], select[name="country"]{
+    border : 1px dashed black;
+}
+legend{
+    font-size: 1.2em;
+    text-align: center;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+textarea{
+    border: 1px dashed black;
+}
+input[type="submit"] {
+                width: 90px;
+                height: 30px;
+				border: 1px solid black;
+				border-radius: 3px;
+				padding: 5px 10px;
+				margin-top: 10px;}
+input[type="reset"] {
+                width: 90px;
+                height: 30px;
+				border: 1px solid black;
+				border-radius: 3px;
+				padding: 5px 10px;
+				margin-top: 10px;}
+.finish{
+    padding: 0px 300px;
+    margin:13px 5px;
+  }
+
+체크박스 점선
+input[type="checkbox"]{
+    border:S 1px dashed black;
+}
